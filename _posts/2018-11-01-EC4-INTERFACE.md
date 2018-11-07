@@ -9,7 +9,6 @@ comments: false
 ---
 <!-- Start Writing Below in Markdown -->
 
-
 #### 인터페이스 대상
 * 고객정보
 * 차량정보
@@ -35,5 +34,9 @@ comments: false
   * 나머지 - FTP 파일 연동
 
 #### 개발 기술
-* spring 배치(egov) EC4Batch
+* springbatch (EC4Batch)
+* springboot
 * FTP, Socket 통신
+
+#### 인터페이스 구성
+![](/images/ec4_batch.png "인터페이스 구성")
