@@ -60,3 +60,17 @@ WBS에 등록된 목록을 csv 파일로 정리한다.
 
 ![](/images/jira_story_9.png "Story 만들기")
 보드에서 등록된 이슈 확인
+
+## Epic 맵핑
+![](/images/jira_epic_mapping_1.png "Story 만들기")
+등록된 이슈를 Epic과 매핑한다.
+
+좌측 큰틀 항목을 열고 백로그에 모든 이슈가 나오도록 필터를 제거한 후 이슈를 선택하여 Epic에 Drag & Drop으로 매핑한다.
+
+![](/images/jira_epic_mapping_2.png "Story 만들기")
+
+
+## 스프린트 만들기
+![](/images/jira_sprint_1.png "스프린트 만들기")
+스프린트 만들기 버튼을 누르면 스프린트 이름을 입력 할 수 있음<br/>
+스프린트 이름을 입력하고 뒤에 날짜를 같이 입력하면 보기 편함
