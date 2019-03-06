@@ -4,6 +4,7 @@ title:    Vue.js 개발환경 셋팅
 author:   harry
 tags:     [vue, js, dev]
 comments: false
+published : false
 ---
 <!-- Start Writing Below in Markdown -->
 ## 아톰 에디터 설치

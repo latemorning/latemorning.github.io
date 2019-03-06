@@ -6,13 +6,14 @@ date: 2016-08-15
 tags: [test, style]
 comments: true
 share: true
+published : false
 ---
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
 ---
 
-## 1. Header 
+## 1. Header
 
 # Header 1
 
@@ -26,7 +27,7 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 ###### Header 6
 
-### 1-1. Header Alignment 
+### 1-1. Header Alignment
 
 ##### Left(Default)
 
