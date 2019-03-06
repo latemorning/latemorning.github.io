@@ -4,14 +4,14 @@ title:    STS에서 Spring Boot 웹 프로젝트 시작하기
 author:   harry
 tags:     [STS, Spring Boot, Web]
 comments: true
-published : false
+published : true
 ---
 
-## STS 다운로드 & 설치
+### STS 다운로드 & 설치
 다음 [링크](https://spring.io/tools)에서 다운로드 (현재 4.1.2 최신)
 적당한 위치에 압축 해제하면 설치가 완료된다.
 
-## 프로젝트 생성
+### 프로젝트 생성
 스프링 부트를 사용하여 웹프로젝트 생성 gradle을 사용하기로 한다.
 단축키 Ctrl + N,
 Spring Boot -> Spring Starter Project 선택
