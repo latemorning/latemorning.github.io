@@ -4,7 +4,7 @@ title:    EC4 인터페이스 작업 요약
 author:   harry
 tags:     [egov, batch, 인터페이스]
 comments: false
-
+published : false
 ---
 <!-- Start Writing Below in Markdown -->
 
