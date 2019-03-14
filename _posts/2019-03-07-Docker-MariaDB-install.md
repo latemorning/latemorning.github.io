@@ -133,7 +133,7 @@ ubuntu-upstart          latest              b28219773b9b        3 years ago     
 ```
 
 이미지 실행
-phpmyadmin은 저장되는 데이터가 없는 거 같아 볼륨은 만들지 않았습니다.
+phpmyadmin은 저장되는 데이터가 없는 것 같아 볼륨은 만들지 않았습니다.
 ```
 $ docker run --name phpmyadmin -d --link mariadb:db -p 8087:80 phpmyadmin/phpmyadmin
 f66b61fc7817289457707f0ffb37d753db9e1ea297a7e08958d30bac10e598c0
