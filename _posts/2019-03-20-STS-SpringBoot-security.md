@@ -76,6 +76,9 @@ public class HelloWorldController {
 서버 실행하고 localhost:8080/hello 에 접속해보자 내가 만든적도 없는 로그인 화면이 보인다. 스프링 시큐리티 기본 설정에 모든 자원은 인증을 통과해야 되기때문에 기본 로그인 화면이 출력된다.
 ![img_02](/images/2019-03-20-STS-SpringBoot-security/img_02.png)
 
+### 클래스 다이어그램
+![img_04](/images/2019-03-20-STS-SpringBoot-security/img_04.png)
+
 ### 사용자 정의 Member 생성
 spring security에는 UserDetails라는 인터페이스가 인증과 관련된 사용자를 나타내고 이를 구현한 User 클래스가 있다. 우리는 Member라는 객체를 만들고 UserDetails 를 구현하여 인증에 Member 객체를 사용해 보기로 하겠다. UserDetails 를 구현하면 기본적으로 필요한 필드와 메서드들이 생성된다. 자동으로 생성된 메서드들은 적당히 소스를 수정해주고(어렵지않음) 생성자는 직접 추가했는데 계정 잠금과 만료에 관한 설정으로 지금은 사용할 일이 없기때문에 3개의 변수를 true로 강제 셋팅했다.  
 ```java
